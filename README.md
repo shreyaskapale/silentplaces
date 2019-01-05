@@ -44,6 +44,10 @@ requirements -
 or 
 
     cordova build android
+
+# Note
+As the application is still in prototype stage all devices might not be supported, there may bugs too.
+
 License
 ----
 
