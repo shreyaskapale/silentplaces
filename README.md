@@ -1,5 +1,5 @@
 # Silent Places
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)  
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://drive.google.com/open?id=148CBxwcaWcS-P1IJueH28tNSFCuc3WVD)  
 
 Silent Places a cordova based mobile application, which automatically gets silent in zones selected as silent by the users.
 
