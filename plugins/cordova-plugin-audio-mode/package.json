@@ -1,0 +1,62 @@
+{
+  "_from": "cordova-plugin-audio-mode@^1.1.2",
+  "_id": "cordova-plugin-audio-mode@1.1.2",
+  "_inBundle": false,
+  "_integrity": "sha1-Wx6urYZJfG1J//zLYBQ50gVJybM=",
+  "_location": "/cordova-plugin-audio-mode",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "cordova-plugin-audio-mode@^1.1.2",
+    "name": "cordova-plugin-audio-mode",
+    "escapedName": "cordova-plugin-audio-mode",
+    "rawSpec": "^1.1.2",
+    "saveSpec": null,
+    "fetchSpec": "^1.1.2"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-audio-mode/-/cordova-plugin-audio-mode-1.1.2.tgz",
+  "_shasum": "5b1eaead86497c6d49fffccb601439d20549c9b3",
+  "_spec": "cordova-plugin-audio-mode@^1.1.2",
+  "_where": "C:\\Users\\Shreyas\\projects\\SilentPlaces",
+  "author": {
+    "name": "Asfandiyar Khan"
+  },
+  "bugs": {
+    "url": "https://github.com/asfandiyark7/cordova-plugin-audio-mode/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-audio-mode",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova Audio Mode Plugin",
+  "devDependencies": {},
+  "homepage": "https://github.com/asfandiyark7/cordova-plugin-audio-mode#readme",
+  "keywords": [
+    "cordova",
+    "audio mode",
+    "change audio mode",
+    "audio profile",
+    "change profile",
+    "change audio profile",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "cordova-plugin-audio-mode",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asfandiyark7/cordova-plugin-audio-mode.git"
+  },
+  "scripts": {},
+  "version": "1.1.2"
+}

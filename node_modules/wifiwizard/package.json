@@ -1,0 +1,58 @@
+{
+  "_from": "wifiwizard",
+  "_id": "wifiwizard@0.2.11",
+  "_inBundle": false,
+  "_integrity": "sha1-7S20e8SsYhwS3h1u9ZSIIulk3xQ=",
+  "_location": "/wifiwizard",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "wifiwizard",
+    "name": "wifiwizard",
+    "escapedName": "wifiwizard",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/wifiwizard/-/wifiwizard-0.2.11.tgz",
+  "_shasum": "ed2db47bc4ac621c12de1d6ef5948822e964df14",
+  "_spec": "wifiwizard",
+  "_where": "C:\\Users\\Shreyas\\projects\\SilentPlaces",
+  "author": {
+    "name": "Matt Parsons"
+  },
+  "bugs": {
+    "url": "https://github.com/parsonsmatt/wifiwizard/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "com.pylonproducts.wifiwizard",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "This plugin allows Phonegap applications to manage Wifi connections.",
+  "homepage": "https://github.com/parsonsmatt/wifiwizard#readme",
+  "keywords": [
+    "phonegap",
+    "network",
+    "wifi",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "Apache 2.0",
+  "name": "wifiwizard",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parsonsmatt/wifiwizard.git"
+  },
+  "version": "0.2.11"
+}

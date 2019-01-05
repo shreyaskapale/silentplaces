@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'"/>
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>HelloPlaces</title>
+    </head>
+    <body onload="onDeviceReady()">
+        <div class="app">
+            <div style="border-style: solid; padding: 2px;">
+            <p >S I L E N T &nbsp&nbsp P L A C E S </p>
+            </div>
+            <div class="blink">
+            <p class="event listening" style="font-size: 20px" onclick="getScanResults()" >S I L E N C E</p>
+            <p class="event listening" style="font-size: 20px" onclick="background_call()">A C T I V A T E </p>
+            <br>
+            </div>
+                <div style="border-style: dashed;border-width:2px ;padding: 5px; padding-top: 5%;">
+                <p style="font-size: 14px;text-align: justify;"> Go to your desired silent spot where you want your phone to be silent and press the "silence" button. Later press the "activate" button to activate the app. </p>
+
+                </div>
+                <br>
+                <div style="border-style: dashed;border-width:2px ; padding-top: 5%;">
+                <center><p class="display_wifis">SELECTED WIFI</p></center>
+                <p class="display_wifis" id="wifi_name">read the instructions above</p>
+                <p class="display_wifis" id="wifi_mac"></p>
+                </div>
+              <p style="padding-top: 10%"><b>&#169; 2018 &nbsp X E R F I A  </b></p>
+              <p>Made with &#10084; by Shreyas Kapale</p>
+                <p>Logo credits :  Sharan Jamnani</p>
+               <p> <a href="#" onclick="window.open('https://github.com/shreyaskapale/silentplaces', '_system'); return false;"><img src="img/github.png" height="32px" width="32px"></a>github</p>
+
+            </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+
+       
+        </script>
+
+    </body>
+</html>

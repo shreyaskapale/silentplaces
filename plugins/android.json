@@ -1,0 +1,49 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "com.pylonproducts.wifiwizard": {
+      "PACKAGE_NAME": "com.xerfia.SilentPlaces"
+    },
+    "cordova-plugin-audio-mode": {
+      "PACKAGE_NAME": "com.xerfia.SilentPlaces"
+    },
+    "cordova-plugin-permission": {
+      "PACKAGE_NAME": "com.xerfia.SilentPlaces"
+    },
+    "wifiwizard2": {
+      "PACKAGE_NAME": "com.xerfia.SilentPlaces"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.xerfia.SilentPlaces"
+    },
+    "cordova-plugin-background-mode": {
+      "PACKAGE_NAME": "com.xerfia.SilentPlaces"
+    },
+    "cordova-plugin-background-service": {
+      "PACKAGE_NAME": "com.xerfia.SilentPlaces"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.xerfia.SilentPlaces"
+    },
+    "cordova-plugin-android-volume": {
+      "PACKAGE_NAME": "com.xerfia.SilentPlaces"
+    }
+  },
+  "dependent_plugins": {
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "com.xerfia.SilentPlaces"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.xerfia.SilentPlaces"
+    },
+    "cordova-plugin-background-fetch": {
+      "PACKAGE_NAME": "com.xerfia.SilentPlaces"
+    }
+  }
+}

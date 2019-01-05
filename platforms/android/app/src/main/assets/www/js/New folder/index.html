@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'"/>
+
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>HelloPlaces</title>
+    </head>
+    <body>
+
+        <div class="app">
+            <div style="border-style: solid; padding: 2px;">
+            <p >S I L E N T &nbsp&nbsp P L A C E S </p>
+            </div>
+            <div id="devicereadyx" class="blink" style="padding-top: 30%;">
+                
+                <p class="event listening" style="font-size: 20px" onclick="silent_action()" >S I L E N C E</p>
+                
+                <br>
+              
+
+            </div>
+                  <div style="border-style: dashed;border-width:2px ;padding: 10px; padding-top: 5%;">
+                <p> Go to your desired silent zone where you want your phone to be silent and click on "Silent this place"</p>
+                </div>
+                <br>
+                <div style="border-style: dashed;border-width:2px ;padding: 10px; padding-top: 5%;">
+                <center><p>BSSID SELECTED</p></center>
+                <p id="selected_place"></p>
+                </div>
+              <p style="padding-top: 40%"><b>&#169; 2018 &nbsp X E R F I A  </b></p>
+              <p>Made with &#10084; by Shreyas Kapale</p>
+
+        </div>
+
+
+
+
+
+
+    </body>
+</html>
+
+
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">
+	
+
+            document.addEventListener("deviceready", onDeviceReady, false);
+            function onDeviceReady(){
+                alert("R E A D Y");
+
+            }
+        function silent_action()
+        {   
+            alert("click");
+            check_wifi_permission()
+
+            
+        }
+        
+    function check_wifi_permission(){ 
+    // wifi access needs location permissions  
+        var Permission = window.plugins.Permission;
+        var permission = 'android.permission.ACCESS_FINE_LOCATION'
+            Permission.has(permission, function(results) {
+                if (!results[permission]) {
+                    //If permission not given ask permission
+                    Permission.request(permission, function(results) {
+                        if (result[permission]) {
+                        // permission is granted
+                        }
+                    }, alert)
+                }
+            }, alert)
+
+        }
+
+    function set_wifi_spot(){
+        var wifi = WifiWizard.getScanResults(function(wifis) {
+            enabled = false;
+            WifiWizard2.setWifiEnabled(enabled);
+            enabled = true;
+            WifiWizard2.setWifiEnabled(enabled);
+            var selected_bssid = wifis[0].BSSID;
+            storage.setItem("sbssid", selected_bssid);
+            selected_distance = 10*Math.pow(10, ((27.55 - (20 * log(getwifis[0].frequency)) + getwifis[0].level));
+            storage.setItem("sdistance",selected_distance);
+
+        })
+    }
+
+function log(x)
+{
+    return Math.log(x);
+}
+
+
+
+
+
+
+
+	
+</script>

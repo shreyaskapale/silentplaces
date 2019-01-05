@@ -1,0 +1,67 @@
+{
+  "_from": "wifiwizard2@3.1.0",
+  "_id": "wifiwizard2@3.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-RgsbQuWX2h9QN+s8RpLASfYgAGuZEhK/Mzxkq8pajFQdkMsqMZJnx01FPQLiGXnYhSKa4XWswD5iifxT+CSIUg==",
+  "_location": "/wifiwizard2",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "wifiwizard2@3.1.0",
+    "name": "wifiwizard2",
+    "escapedName": "wifiwizard2",
+    "rawSpec": "3.1.0",
+    "saveSpec": null,
+    "fetchSpec": "3.1.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/wifiwizard2/-/wifiwizard2-3.1.0.tgz",
+  "_shasum": "8794029a0a35f496acc10207dba7951ad6b45f63",
+  "_spec": "wifiwizard2@3.1.0",
+  "_where": "C:\\Users\\Shreyas\\projects\\SilentPlaces",
+  "author": {
+    "name": "Myles McNamara"
+  },
+  "bugs": {
+    "url": "https://github.com/tripflex/wifiwizard2/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "wifiwizard2",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova WiFi Manager for Android and iOS",
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "cordova": "^5.0.0"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova-android": ">=5.0.0"
+      }
+    }
+  },
+  "homepage": "https://github.com/tripflex/wifiwizard2#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "Apache 2.0",
+  "name": "wifiwizard2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tripflex/wifiwizard2.git"
+  },
+  "version": "3.1.0"
+}

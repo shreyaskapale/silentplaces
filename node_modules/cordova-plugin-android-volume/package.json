@@ -1,0 +1,51 @@
+{
+  "_from": "cordova-plugin-android-volume",
+  "_id": "cordova-plugin-android-volume@0.0.12",
+  "_inBundle": false,
+  "_integrity": "sha512-jKhyjnNX9hWfJbSIsSlJL6rvw852ofv0n5Q+aH4UxMpHBVGmlQZCtL5fGCJU+jYwvU2MddmI7Wd9Bl79eoZIGg==",
+  "_location": "/cordova-plugin-android-volume",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-android-volume",
+    "name": "cordova-plugin-android-volume",
+    "escapedName": "cordova-plugin-android-volume",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-android-volume/-/cordova-plugin-android-volume-0.0.12.tgz",
+  "_shasum": "e4c931bc9ea4b2a346f31abfe734c86004c660cf",
+  "_spec": "cordova-plugin-android-volume",
+  "_where": "C:\\Users\\Shreyas\\projects\\SilentPlaces",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/MCluck90/cordova-plugin-android-volume/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-android-volume",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Set the volume on Android devices",
+  "homepage": "https://github.com/MCluck90/cordova-plugin-android-volume#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-android-volume",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MCluck90/cordova-plugin-android-volume.git"
+  },
+  "version": "0.0.12"
+}

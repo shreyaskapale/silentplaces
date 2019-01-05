@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="cordova-plugin-audio-mode"
+        version="1.1.1">
+
+  <name>Audio Mode</name>
+
+  <engines>
+    <engine name="cordova" version=">=3.4.0"/>
+  </engines>
+
+  <asset src="www/audio_mode.js" target="js/audio_mode.js"/>
+
+  <js-module src="www/audio_mode.js" name="audio_mode">
+    <clobbers target="audio_mode" />
+  </js-module>
+
+  <platform name="android">
+
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="AudioMode">
+        <param name="android-package" value="org.cordova.plugin.AudioMode"/>
+      </feature>
+    </config-file>
+
+    <source-file src="src/android/AudioMode.java" target-dir="src/cordova/plugin/"/>
+  </platform>
+
+</plugin>

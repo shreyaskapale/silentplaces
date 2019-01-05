@@ -1,0 +1,69 @@
+{
+  "_from": "cordova-plugin-background-fetch@^5.4.1",
+  "_id": "cordova-plugin-background-fetch@5.4.1",
+  "_inBundle": false,
+  "_integrity": "sha512-kI5JqRoVh7F4RVslGnTWuJ3OVx66xgGFqiQAeUnWS4L6ipJKghSxaCJAufMLbZDxfUDEArCFKp2+RbB0/Ntecg==",
+  "_location": "/cordova-plugin-background-fetch",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "cordova-plugin-background-fetch@^5.4.1",
+    "name": "cordova-plugin-background-fetch",
+    "escapedName": "cordova-plugin-background-fetch",
+    "rawSpec": "^5.4.1",
+    "saveSpec": null,
+    "fetchSpec": "^5.4.1"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-background-fetch/-/cordova-plugin-background-fetch-5.4.1.tgz",
+  "_shasum": "4b576826b84b9259d1c4c9a2616e7ff6b164f86d",
+  "_spec": "cordova-plugin-background-fetch@^5.4.1",
+  "_where": "C:\\Users\\Shreyas\\projects\\SilentPlaces",
+  "author": {
+    "name": "Chris Scott, Transistor Software",
+    "email": "chris@transistorsoft.com"
+  },
+  "bugs": {
+    "url": "https://github.com/transistorsoft/react-native-background-fetch/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-background-fetch",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "A plugin to periodically awaken your app in the background every 15 minutes to perform some work.",
+  "engines": {
+    "cordovaDependencies": {
+      "5.4.0": {
+        "cordova": ">=7.1.0",
+        "cordova-android": ">=7.0.0",
+        "cordova-ios": ">=4.4.0"
+      },
+      "<5.4.0": {
+        "cordova": ">=6.4.0",
+        "cordova-android": ">=6.0.0",
+        "cordova-ios": ">=4.3.0"
+      }
+    }
+  },
+  "homepage": "https://github.com/transistorsoft/react-native-background-fetch",
+  "keywords": [
+    "cordova",
+    "background",
+    "fetch"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-background-fetch",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/transistorsoft/cordova-plugin-background-fetch.git"
+  },
+  "version": "5.4.1"
+}
