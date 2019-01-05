@@ -46,7 +46,7 @@ or
     cordova build android
 
 # Note
-As the application is still in prototype stage all devices might not be supported, there may bugs too.
+As the application is still in prototype stage all devices might not be supported, bugs will be there for sure.
 
 License
 ----
