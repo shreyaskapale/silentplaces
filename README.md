@@ -24,7 +24,7 @@ Silent Places a cordova based mobile application, which automatically gets silen
      - backgronud-mode
      - background-service
 
->Whole source code is written javascript ES6 , plugins are written in JAVA.
+>Story : It was the second day of my College life, apparently my professor had told everyone the day before to switch off their phone's >before entering his class... But guess what my phone rang ! So I hope you can imagine the rest of story, well I was angry that day not on >professor but on my phone ? I bought a smart phone and it cannot go auto silent in classes ? How smart is that :3 , So my brain said " how >about you make a app son " ... After thinking for some time got a idea ! To use BSSID (Mac address of college wifi) and Calculate the >distance between my class and wifi.So a app that would run in the background and when ever you are in the class at that distance range your >phone gets silent automatically and when you are out of the class it goes back to normal mode. 
 
 # Building source for android
 requirements - 
