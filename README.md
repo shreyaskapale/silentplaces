@@ -14,7 +14,7 @@ Silent Places a cordova based mobile application, which automatically gets silen
     distance = 10 ^ ((27.55 - (20 * log10(frequency)) + signalLevel)/20)
 
 
-# Technologies
+# Technologies ( Android)
 - Apache Cordova 
   - plugins
      - wifiwizard
@@ -47,6 +47,10 @@ or
 
 # Note
 As the application is still in prototype stage all devices might not be supported, bugs will be there for sure.
+
+# Development
+- Currently works with only Android 5.1 + versions. 
+
 
 License
 ----
