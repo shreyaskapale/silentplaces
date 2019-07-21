@@ -1,16 +1,20 @@
  document.addEventListener("deviceready", onDeviceReady, true);
         var  wifi = "null";
 
+
+
 function onDeviceReady() {
+ // on device (application) loads get the set local ssid if exists
         var sssid = window.localStorage.getItem("sssid");
         var sbssid = window.localStorage.getItem("sbssid");
+ // display the ssid to the user
         document.getElementById("wifi_name").innerHTML=sssid;
         document.getElementById("wifi_mac").innerHTML=sbssid;
         
   }
 
 
-
+// search the available wifi(s)
 function getScanResults() {
     check_permission();
     var wifi = WifiWizard.getScanResults(function(wifis) {
@@ -19,13 +23,16 @@ function getScanResults() {
         enabled = true;
         WifiWizard2.setWifiEnabled(enabled);
        // var getwifis = wifis;
+     // select the ssid with the strongest signal 
         var selected_bssid = wifis[0].BSSID;
+     // calculate the distance from ssid
         exp = (27.55 - (20 * Math.log10(wifis[0].frequency)) + Math.abs(wifis[0].level)) / 20.0;
         selected_distance = Math.pow(10.0, exp);
         var storage = window.localStorage;
         selected_ssid = wifis[0].SSID;
         storage.setItem("sbssid", selected_bssid);
         selected_distance = Math.round(selected_distance);
+     // store the selected ssid
         storage.setItem("sdistance",selected_distance);
         storage.setItem("sssid", selected_ssid);
         //alert(selected_distance);
